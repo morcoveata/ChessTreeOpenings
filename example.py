@@ -47,3 +47,5 @@ selmod.select(index2, QtGui.QItemSelectionModel.Select|QtGui.QItemSelectionModel
 view.show()
 sys.exit(app.exec_())
 # ~~~~~~~~~~~~~~~~~~~~
+
+# verific checkout
