@@ -1,0 +1,33 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[ECO "C65"]
+[Annotator "LucaCiubota_Gamer"]
+[PlyCount "31"]
+[SourceDate "2019.05.25"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. O-O Bc5 (4... Nxe4 5. d4 (5. Re1 Nd6 $1 6.
+Nxe5 Be7 7. Ba4 (7. Bd3 O-O 8. Nc3 Nxe5 9. Rxe5 Bf6 $11) 7... Nxe5 8. Rxe5 O-O
+9. d4 Bf6 10. Re1 Nf5 11. c3 d5 12. Nd2 Bd7 {=, Bronstein-Smyslov, Moscow 1971.
+}) 5... Nd6 ({White gains an edge after} 5... Be7 6. Qe2 Nd6 7. Bxc6 bxc6 8.
+dxe5 Nb7 9. Nc3 O-O 10. Re1 Nc5 11. Be3 Ne6 12. Rad1 $15 {Dominguez-Goldin,
+Buenos Aires 2001.}) 6. Bxc6 ({Amusing is} 6. dxe5 Nxb5 7. a4 {winning back
+the knight. After} Nbd4 8. Nxd4 d5 9. exd6 Nxd4 10. Qxd4 Qxd6 {the game is
+level, Moreno CarneroTopalov, Vicente Rapid 2005.}) (6. Bg5 Be7 (6... f6 $2 7.
+dxe5 $16) 7. Bxe7 Qxe7 8. Bxc6 dxc6 9. dxe5 Nf5 (9... Ne4 10. Qe2 Nc5 {should
+be equal}) 10. Nc3 Be6 11. Qd2 {may give White an edge})) 5. Nxe5 Nxe4 (5...
+Nxe5 6. d4 a6 (6... c6 7. dxe5 Nxe4 8. Bd3 d5 9. exd6 Nf6 10. Re1+ Be6 11. Nc3
+{+= FedorowiczKaidanov, U.S. Chp. 1993}) 7. Be2 $1 Be7 (7... Ba7 8. dxe5 Nxe4
+9. Qd5 $1 {+-}) 8. dxe5 Nxe4 9. Be3 d5 10. c4 c6 11. cxd5 {+= G.
+Herndndez-Godena, Moscow 01.1994.}) 6. Qe2 Nxe5 7. Qxe4 Qe7 8. Nc3 (8. d4 Nc6
+9. Qxe7+ {is just a minute endgame edge for White, and the complicated} (9. Qg4
+h5 10. Qxg7 Bxd4 11. Qg3 a6 {is about equal}) 9... Bxe7) 8... Ng6 9. Qxe7+ Bxe7
+(9... Nxe7 10. Re1 O-O (10... c6 11. Ne4 $1) 11. d4 Bxd4 12. a3 Bxc3 13. bxc3 {
++/- Short-Parker, 4NCL 2002}) 10. Nd5 Bd6 11. Re1+ Kd8 12. Ne3 Re8 13. Bc4 Re7
+14. d4 Bf4 15. g3 Bxe3 16. Bxe3 {and the bishop pair squeezes Black in the
+endgame, Griinfeld-Salov, Haifa 1989} *
+
