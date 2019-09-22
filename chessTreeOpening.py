@@ -49,6 +49,26 @@ class Window(QtGui.QMainWindow):
 					ret += i
 			return ret
 
+
+					###############################
+
+	# function for get first variation 
+	# primeste textul din prima paranteza sau a doua sau a treia incastrate una in alta
+
+		def a1(test_str):
+			ret = ''
+			skip2c = 0
+			for i in test_str:
+				if i == '(':
+					skip2c += 1
+				elif i == ')'and skip2c > 0:
+					skip2c -= 1
+				elif skip2c == 1:
+					ret += i
+			return ret
+
+
+
 	
 		inputPng = open('text.pgn').read()
 
@@ -61,9 +81,10 @@ class Window(QtGui.QMainWindow):
 		
 		# print finalString
 
-
+		#################################
+		#################################
+		# prelucrare text din fisier pgn		
 		
-		finalString = a(finalString)
 		#transform pargraph sign to space sign
 		finalString = finalString.replace("\n", "")
 		# remove space sign
@@ -71,6 +92,25 @@ class Window(QtGui.QMainWindow):
 
 		# print finalString.strip()
 		finalString.strip()
+
+
+
+		variantaPrincipala = a(finalString)
+		variantaSecundara = a1(finalString)
+
+
+
+
+		# finalString = a1(finalString)
+		# #transform pargraph sign to space sign
+		# finalString = finalString.replace("\n", "")
+		# # remove space sign
+		# finalString = finalString.replace("  ", "")
+
+		# print finalString.strip()
+		
+
+
 
 		# with open("guru99.pgn", "a") as myfile:
 		# 	myfile.write("First Line\n")
@@ -123,14 +163,17 @@ class Window(QtGui.QMainWindow):
 	# work on tree view
 
 		model = QtGui.QStandardItemModel()
-		model.setHorizontalHeaderLabels(['var 1', 'var 2', 'var 3'])
+		model.setHorizontalHeaderLabels(['var 1', 'var 2', 'var 3', 'var 4', 'var 5', 'var 6'])
 		self.treeWiew.setModel(model)
 		self.treeWiew.setUniformRowHeights(True)
 
-		parent1 = QtGui.QStandardItem(finalString)
-		child1 = QtGui.QStandardItem("varianta 1")
+		parent1 = QtGui.QStandardItem(variantaPrincipala)
+		child1 = QtGui.QStandardItem(variantaSecundara)
 		child2 = QtGui.QStandardItem("varianta 2")
-		child3 = QtGui.QStandardItem("varianta 3")
+		child3 = QtGui.QStandardItem("varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 ")
+		child4 = QtGui.QStandardItem("varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 ")
+		child5 = QtGui.QStandardItem("varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 ")
+		child6 = QtGui.QStandardItem("varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 varianta 3 ")
 		
 		model.setItem(0,0, parent1)
 		parent1.setRowCount(0)
@@ -138,6 +181,9 @@ class Window(QtGui.QMainWindow):
 		parent1.setChild(0, 0, child1);
 		parent1.setChild(1, 1, child2);
 		parent1.setChild(2, 2, child3);	
+		parent1.setChild(3, 3, child4);	
+		parent1.setChild(4, 4, child5);	
+		parent1.setChild(5, 5, child6);	
 
 		# parent1.appendColumn([child1, child2, child3])
 
