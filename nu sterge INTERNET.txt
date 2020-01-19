@@ -1,0 +1,1 @@
+https://forum.qt.io/topic/93080/how-to-dynamically-add-nodes-to-a-qtreeview

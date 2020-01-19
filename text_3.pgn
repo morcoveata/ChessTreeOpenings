@@ -1,0 +1,15 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+
+1.e4 e5 2.Nf3 Nc6 3.d4 
+    ( 3.Nc3 d5 4.exd5 Qxd5 
+        ( 4...Nd4 5.Nxd4 exd4 6.Ne2 d3 7.cxd3 )
+    )
+    ( 3.h3 Nd4 4.Nxd4 exd4 5.c3 dxc3 6.dxc3 )
+*
+

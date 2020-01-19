@@ -1,0 +1,1 @@
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Bc5 4.c3 4...f5 5.d4 5...fxe4 6.Bxc6 6...dxc6 7.Nfd2 7...Bd6 8.dxe5 e3 9.fxe3 9...Bc5 10.O-O Bxe3+ 11.Kh1 Qe7 12.Qf3Bg5 13.b3 Nh6 14.Ba3 Qe6 15.Ne4 += {MikhailovSapundzhiev, corr. 1992.}*
